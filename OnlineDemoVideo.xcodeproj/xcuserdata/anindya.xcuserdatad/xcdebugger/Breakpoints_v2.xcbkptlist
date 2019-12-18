@@ -23,15 +23,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1DF9E1ED-F740-4625-A1F4-03CCBC8E0D5A"
-            shouldBeEnabled = "Yes"
+            uuid = "32A44C37-FF29-48C9-9493-B7EE719F2C65"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OnlineDemoVideo/VideoPlayViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "setUpPlayerView(isPausePlayButtonVisible:isTimeSliderVisible:isCurrentTimeLabelVisible:isDurationTimeLabelVisible:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -39,16 +39,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "570AD583-F262-4042-AFB2-D031C98A7DF0"
+            uuid = "1BC746BB-23AC-481B-8795-01B86E5F4B9A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OnlineDemoVideo/VideoPlayViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "setUpPlayerView(isPausePlayButtonVisible:isTimeSliderVisible:isCurrentTimeLabelVisible:isDurationTimeLabelVisible:)"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "timeSliderHandle(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39D5BCA0-562B-40D6-8A86-30A6A6EF54F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OnlineDemoVideo/VideoPlayViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "loadUserControls()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

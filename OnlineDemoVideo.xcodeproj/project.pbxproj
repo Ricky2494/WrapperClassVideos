@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074E7DFA23A789BB00D7E87A /* CustomControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E7DF923A789BB00D7E87A /* CustomControls.swift */; };
+		074E7DFC23A789DF00D7E87A /* CustomControls.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074E7DFB23A789DF00D7E87A /* CustomControls.xib */; };
+		074E7E0023A8CD3F00D7E87A /* UserControls.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074E7DFF23A8CD3F00D7E87A /* UserControls.xib */; };
+		074E7E0223A8CDC000D7E87A /* UserControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E7E0123A8CDC000D7E87A /* UserControls.swift */; };
 		07F0BAE1239630CB00470147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0BAE0239630CB00470147 /* AppDelegate.swift */; };
 		07F0BAE3239630CB00470147 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0BAE2239630CB00470147 /* SceneDelegate.swift */; };
 		07F0BAEA239630CC00470147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F0BAE9239630CC00470147 /* Assets.xcassets */; };
@@ -32,6 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		074E7DF923A789BB00D7E87A /* CustomControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControls.swift; sourceTree = "<group>"; };
+		074E7DFB23A789DF00D7E87A /* CustomControls.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomControls.xib; sourceTree = "<group>"; };
+		074E7DFF23A8CD3F00D7E87A /* UserControls.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserControls.xib; sourceTree = "<group>"; };
+		074E7E0123A8CDC000D7E87A /* UserControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserControls.swift; sourceTree = "<group>"; };
 		07F0BADD239630CB00470147 /* OnlineDemoVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineDemoVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F0BAE0239630CB00470147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F0BAE2239630CB00470147 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +156,10 @@
 				07F0BAFA239679D700470147 /* VideoClip.swift */,
 				07F0BAFC2397B06F00470147 /* Video.swift */,
 				07F0BAFE2397B15000470147 /* VideoViewTableViewCell.swift */,
+				074E7DF923A789BB00D7E87A /* CustomControls.swift */,
+				074E7DFB23A789DF00D7E87A /* CustomControls.xib */,
+				074E7DFF23A8CD3F00D7E87A /* UserControls.xib */,
+				074E7E0123A8CDC000D7E87A /* UserControls.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -230,8 +242,10 @@
 				07F0BB0F2397BEA800470147 /* newYorkFlip.png in Resources */,
 				07F0BB0E2397BEA800470147 /* shark.png in Resources */,
 				07F0BB112397BEA800470147 /* bulletTrain.png in Resources */,
+				074E7DFC23A789DF00D7E87A /* CustomControls.xib in Resources */,
 				07F0BB172397CEB200470147 /* TestTableViewCell.xib in Resources */,
 				07F0BB072397BE7500470147 /* monkey.mp4 in Resources */,
+				074E7E0023A8CD3F00D7E87A /* UserControls.xib in Resources */,
 				07F0BB082397BE7500470147 /* bulletTrain.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +261,8 @@
 				07F0BAE1239630CB00470147 /* AppDelegate.swift in Sources */,
 				07F0BB192398D0F000470147 /* VideoPlayViewController.swift in Sources */,
 				07F0BB162397CEB200470147 /* TestTableViewCell.swift in Sources */,
+				074E7E0223A8CDC000D7E87A /* UserControls.swift in Sources */,
+				074E7DFA23A789BB00D7E87A /* CustomControls.swift in Sources */,
 				07F0BAFB239679D700470147 /* VideoClip.swift in Sources */,
 				07F0BAF5239631BF00470147 /* VideoFeedViewController.swift in Sources */,
 				07F0BAFD2397B06F00470147 /* Video.swift in Sources */,

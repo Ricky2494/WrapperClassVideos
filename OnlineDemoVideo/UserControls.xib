@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UserControls" customModule="OnlineDemoVideo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="138" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MtN-9u-4P8">
+                    <rect key="frame" x="0.0" y="0.0" width="138" height="90"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yz3-g3-R37">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="yz3-g3-R37" secondAttribute="height" multiplier="1:1" id="NKV-ws-MQT"/>
+                                <constraint firstAttribute="height" constant="40" id="arr-95-vCd"/>
+                            </constraints>
+                            <state key="normal" image="volume"/>
+                            <connections>
+                                <action selector="volumeButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="2R9-g8-Vb0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZd-4d-COJ">
+                            <rect key="frame" x="88" y="0.0" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="HHb-VR-6yb"/>
+                                <constraint firstAttribute="width" secondItem="EZd-4d-COJ" secondAttribute="height" multiplier="1:1" id="kiA-sa-Aps"/>
+                            </constraints>
+                            <state key="normal" image="fullscreen"/>
+                        </button>
+                        <slider opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bSb-7i-GaN">
+                            <rect key="frame" x="3" y="50" width="127" height="31"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="WVO-IA-VWt"/>
+                            </constraints>
+                            <connections>
+                                <action selector="volumeSliderChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="DSq-CS-T6x"/>
+                            </connections>
+                        </slider>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="yz3-g3-R37" firstAttribute="top" secondItem="MtN-9u-4P8" secondAttribute="top" id="RLB-uB-MYA"/>
+                        <constraint firstItem="yz3-g3-R37" firstAttribute="leading" secondItem="MtN-9u-4P8" secondAttribute="leading" id="aXq-vB-KCz"/>
+                        <constraint firstItem="bSb-7i-GaN" firstAttribute="leading" secondItem="MtN-9u-4P8" secondAttribute="leading" constant="5" id="c3C-04-fAd"/>
+                        <constraint firstItem="bSb-7i-GaN" firstAttribute="top" secondItem="yz3-g3-R37" secondAttribute="bottom" constant="10" id="i2s-nq-kR5"/>
+                        <constraint firstItem="EZd-4d-COJ" firstAttribute="top" secondItem="MtN-9u-4P8" secondAttribute="top" id="kGI-ui-dFh"/>
+                        <constraint firstAttribute="trailing" secondItem="EZd-4d-COJ" secondAttribute="trailing" constant="10" id="nhe-so-7aO"/>
+                        <constraint firstAttribute="trailing" secondItem="bSb-7i-GaN" secondAttribute="trailing" constant="10" id="z8q-sq-GM8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MtN-9u-4P8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="36l-Z1-MaD"/>
+                <constraint firstItem="MtN-9u-4P8" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="PmA-Dn-YBp"/>
+                <constraint firstItem="MtN-9u-4P8" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="jWb-jY-4JO"/>
+                <constraint firstItem="MtN-9u-4P8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pJ7-fc-ppq"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="fullscreenButton" destination="EZd-4d-COJ" id="zRm-0e-S8X"/>
+                <outlet property="userControlsView" destination="MtN-9u-4P8" id="zOP-Bf-VWU"/>
+                <outlet property="volumeButton" destination="yz3-g3-R37" id="YfJ-iD-iVk"/>
+                <outlet property="volumeSlider" destination="bSb-7i-GaN" id="Uwz-sd-Hln"/>
+            </connections>
+            <point key="canvasLocation" x="-52.173913043478265" y="387.72321428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fullscreen" width="30" height="30"/>
+        <image name="volume" width="30" height="30"/>
+    </resources>
+</document>

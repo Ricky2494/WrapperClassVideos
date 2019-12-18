@@ -66,11 +66,10 @@ extension VideoFeedViewController:  UITableViewDelegate, UITableViewDataSource {
         let storyBoardID = UIStoryboard(name: "Main", bundle: nil)
                let videoPlayVC = storyBoardID.instantiateViewController(withIdentifier: "VideoPlayViewController") as? VideoPlayViewController
         videoPlayVC?.videoUrl = video.url
-        videoPlayVC?.isTimeSliderVisible = false
-        videoPlayVC?.isPausePlayButtonVisible = false
-        videoPlayVC?.isCurrentTimeLabelVisible = false
-        videoPlayVC?.isDurationTimeLabelVisible = false
-        //videoPlayVC?.setUpPlayerView(isPausePlayButtonVisible: false, isTimeSliderVisible: false)
+        videoPlayVC?.isTimeSliderVisible = true
+        videoPlayVC?.isPausePlayButtonVisible = true
+        videoPlayVC?.isCurrentTimeLabelVisible = true
+        videoPlayVC?.isDurationTimeLabelVisible = true
         self.navigationController?.pushViewController(videoPlayVC!, animated: true)
         func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
